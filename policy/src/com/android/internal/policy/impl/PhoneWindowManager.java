@@ -1889,11 +1889,10 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                 break;
         }
     }
-    
+
     void readLidState() {
         mLidState = mWindowManagerFuncs.getLidState();
     }
-    
     private boolean isHidden(int accessibilityMode) {
         switch (accessibilityMode) {
             case 1:
